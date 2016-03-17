@@ -1,7 +1,7 @@
 # Treehouse Techdegree
 
 <h1>Project3</h1>
-[ ] npm install : requires node.js
+retooled workflow so that my dev env tools not included in repo<br>
 
 live preview: http://leyes.ca/project3
 
