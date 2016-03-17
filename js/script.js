@@ -68,13 +68,12 @@ function validate_input(e) {
     if(this_input.id == "zipCode" && this_input.value != ""){
         document.getElementById("zipCode").style.backgroundColor = "green";
     }
-
-    var select = document.getElementById("browser");
-    select.onchange = function () {
-        for (var i = 0; i < select.options.length; i++) {
-            if (i == select.selectedIndex) {
-                select.style.backgroundColor = 'green';
-                select.blur();
+    var select2 = document.getElementById("browser");
+    select2.onchange = function () {
+        for (var i = 0; i < select2.options.length; i++) {
+            if (i == select2.selectedIndex) {
+                select2.style.backgroundColor = 'green';
+                select2.blur();
             }
         }
     };
