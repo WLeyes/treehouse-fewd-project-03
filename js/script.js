@@ -68,4 +68,14 @@ function validate_input(e) {
     if(this_input.id == "zipCode" && this_input.value != ""){
         document.getElementById("zipCode").style.backgroundColor = "green";
     }
+
+    var select = document.getElementById("browser");
+    select.onchange = function () {
+        for (var i = 0; i < select.options.length; i++) {
+            if (i == select.selectedIndex) {
+                select.style.backgroundColor = 'green';
+                select.blur();
+            }
+        }
+    };
 }// EOF
