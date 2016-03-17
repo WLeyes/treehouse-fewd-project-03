@@ -381,7 +381,7 @@ input[type="text"]:last-of-type {
 }
 
 /* line 169, ../components/sass/_modules.scss */
-.contactForm label {
+.contactForm label, .browserCompatibility label {
   padding: 0.25em;
   float: left;
   text-align: left;
@@ -390,12 +390,12 @@ input[type="text"]:last-of-type {
 }
 @media only screen and (min-width: 40em) {
   /* line 169, ../components/sass/_modules.scss */
-  .contactForm label {
+  .contactForm label, .browserCompatibility label {
     margin-bottom: 1.5em;
     width: 25%;
   }
   /* line 178, ../components/sass/_modules.scss */
-  .contactForm label .contactForm label:nth-of-type(6) {
+  .contactForm label .contactForm label:nth-of-type(6), .browserCompatibility label .contactForm label:nth-of-type(6) {
     width: 100%;
   }
 }

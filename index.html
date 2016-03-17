@@ -10,10 +10,7 @@
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!--<link rel="apple-touch-icon" href="apple-touch-icon.png">-->
-    <!-- Place favicon.ico in the root directory -->
-
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
@@ -149,19 +146,20 @@
                     <li><input name="htmlCheckbox"
                                id="htmlCheckbox"
                                type="checkbox"
-                               value="HTML">
+                               value="HTML"
+                               checked="checked">
                         <label for="htmlCheckbox">HTML News</label>
                     </li>
                     <li><input name="cssCheckbox"
                                id="cssCheckbox"
                                type="checkbox"
-                               value="CSS">
+                               value="HTML">
                         <label for="cssCheckbox">CSS News</label>
                     </li>
                     <li><input name="javascriptCheckbox"
                                id="javascriptCheckbox"
                                type="checkbox"
-                               value="JAVASCRIPT">
+                               value="HTML">
                         <label for="javascriptCheckbox">Javascript News</label>
                     </li>
                 </ul>
@@ -172,7 +170,8 @@
                     <li><input type="radio"
                                name="format"
                                id="htmlRadio"
-                               value="HTML">
+                               value="HTML"
+                               checked="checked">
                         <label for="htmlRadio">HTML</label>
                     </li>
                     <li><input type="radio"
@@ -187,6 +186,31 @@
                 <legend>Other topics you would like to hear about</legend>
                 <textarea id="textArea" name="textarea" rows="5" placeholder="optional"></textarea>
             </fieldset>
+        <fieldset class="browserCompatibility">
+            <legend><span>Browser Compatibility</span></legend>
+            <h3>Please select which browser you are currently using.</h3>
+            <label for="browser">Browser List</label>
+            <select id="browser">
+                <optgroup label="Desktop">
+                    <option selected disabled>Choose Browser</option>
+                    <option>Google Chrome</option>
+                    <option>Firefox</option>
+                    <option>Microsoft Edge</option>
+                    <option>Safari</option>
+                    <option>Opera</option>
+                </optgroup>
+                <optgroup label="Mobile">
+                    <option>Android</option>
+                    <option>Chrome for Android</option>
+                    <option>Safari</option>
+                    <option>Opera mini</option>
+                    <option>WebOS</option>
+                </optgroup>
+                <optgroup label="Wearable" disabled>
+                    <option>Devices to be added soon!</option>
+                </optgroup>
+            </select>
+        </fieldset>
             <input type="submit" value="Sign Up">
     </form>
 </main>
@@ -195,7 +219,7 @@
     <p>Copyright &copy; The Code Review</p>
 </footer>
 
-    <script src="js/script.js" type="text/javascript"></script>
+    <script src="/js/script.js" type="text/javascript"></script>
 
 </body>
 </html>
