@@ -4,8 +4,6 @@
 retooled workflow so that my dev env tools not included in repo<br>
 
 live preview:<br>
-
-http://leyes.ca/project3<br>
 http://wleyes.github.io/treehouse-project3/
 
 https://validator.w3.org/nu/?doc=http%3A%2F%2Fleyes.ca%2Fproject3%2F
